@@ -1,0 +1,63 @@
+🎯 Submarine Sonar Simulation: Rock vs Mine Detection
+Overview
+
+This project simulates a submarine sonar system to classify underwater objects as Rocks 🟢 or Mines 💣 using machine learning. It uses the UCI Sonar Mines vs Rocks dataset to train a RandomForestClassifier and visualizes detections through an interactive terminal animation.
+
+Features
+
+Data Loading & Validation: Automatically detects CSV or whitespace-separated files, ensures numeric features, and validates labels.
+
+Machine Learning Model: Trains a RandomForest classifier, evaluates accuracy, confusion matrix, and classification report, and saves the model for future use.
+
+Interactive Terminal Simulation:
+
+Submarine 🚢 moves across a grid.
+
+Rocks 🟢 and Mines 💣 move randomly.
+
+Sonar detection radius highlights nearby objects dynamically.
+
+Animated visualization for a cinematic, presentation-ready demo.
+
+Requirements
+
+Python 3.10+
+
+Libraries: pandas, numpy, scikit-learn, joblib, rich
+
+Install dependencies with:
+
+pip install pandas numpy scikit-learn joblib rich
+
+Usage
+
+Clone or download the repository:
+
+git clone <repository_url>
+cd "machine learning projet"
+
+
+Activate your Python environment:
+
+source sonar_env/bin/activate
+
+
+Run the simulation:
+
+python p.py
+
+
+The program will train the model, evaluate it, and display an interactive ocean simulation with moving submarine, rocks, and mines.
+
+Notes
+
+This is a simulation for educational and demo purposes.
+
+Predictions are based on the Sonar dataset, not real sonar hardware.
+
+Perfect for machine learning portfolios, presentations, or teaching demos.
+
+Author
+
+Girisankar S.M
+Date: 2025-08-30
